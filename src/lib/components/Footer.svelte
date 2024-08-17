@@ -1,6 +1,6 @@
-<footer class="py-20  mt-40">
-	<div class="container px-6 mx-auto space-y-6 divide-y dark:divide-gray-600 md:space-y-12 divide-opacity-50">
-		<div class="grid grid-cols-12">
+<footer class="py-10 mt-40">
+	<div style="border-radius: 16px;" class="container shadow-2xl p-6 mx-auto space-y-6 divide-y dark:divide-gray-600 md:space-y-12 divide-opacity-50">
+		<div class="space-y-5 md:grid md:grid-cols-12">
 			<div class="pb-6 col-span-full md:pb-0 md:col-span-6">
 				<a rel="noopener noreferrer" class="flex justify-center space-x-3 md:justify-start">
 					<div class="flex items-center justify-center w-12 h-12 rounded-full">
