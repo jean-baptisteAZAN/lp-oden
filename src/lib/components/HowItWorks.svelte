@@ -1,15 +1,18 @@
 <script>
-	import { onMount } from "svelte";
+	import { onMount, onDestroy } from "svelte";
 	import { gsap } from "gsap";
 	import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 	gsap.registerPlugin(ScrollTrigger);
 
+	let myST;
+
 	onMount(() => {
 		const container = document.querySelector(".our-work");
 		const slides = gsap.utils.toArray(".carousel__item");
 		const tl = gsap.timeline();
-		const myST = ScrollTrigger.create({
+
+		myST = ScrollTrigger.create({
 			animation: tl,
 			id: "st",
 			trigger: container,
@@ -40,7 +43,14 @@
 			}
 		});
 	});
+
+	onDestroy(() => {
+		if (myST) {
+			myST.kill();
+		}
+	});
 </script>
+
 
 <style>
     section {
@@ -97,7 +107,7 @@
     }
 </style>
 
-<section class="our-work">
+<section class="our-work" id="how_it_works">
 	<div class="container sticky">
 		<h2 class="text-3xl xl:text-5xl text-center xl:mb-40 mb-20">
 			Comment ça marche ?

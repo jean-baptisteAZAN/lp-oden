@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import { ProgressBar } from '@skeletonlabs/skeleton';
 
 	const wording = [
@@ -13,7 +13,7 @@
 	let currentIndex = 0;
 	let currdeg = 0;
 	let interval;
-	const slideInterval = 5000;
+	const slideInterval = 7000;
 
 	onMount(() => {
 		startAutoSlide();
@@ -28,11 +28,14 @@
 		}, slideInterval);
 	}
 
-	function rotateToIndex(index) {
+	async function rotateToIndex(index) {
+		currentIndex = index;
 		const totalItems = wording.length;
 		const anglePerItem = 360 / totalItems;
 		currdeg = -index * anglePerItem;
-		currentIndex = index;
+
+		// Ensure DOM updates before manipulating it
+		await tick();
 
 		const carousel = document.querySelector('.carousel');
 		const items = document.querySelectorAll('.item');
@@ -57,8 +60,8 @@
 		</p>
 	</div>
 	<div class="md:hidden flex flex-row items-center justify-center mt-10">
-		<button on:click={() => rotateToIndex(currentIndex + 1)} class="btn variant-filled w-80">
-			{wording[(currentIndex + 1)].title}
+		<button on:click={() => rotateToIndex(currentIndex + 1)} class="btn variant-filled w-80 animate-bounce">
+			{wording[(currentIndex + 1) % wording.length].title}
 		</button>
 	</div>
 	<div class="hidden md:flex flex-col items-center justify-center w-full xl:w-1/2 lg:mt-20 2xl:mt-0">
@@ -85,7 +88,7 @@
 			{#each Array(wording.length) as _, i}
 				{#if i === currentIndex}
 						<div class="w-20">
-							<ProgressBar value={$interval} max={slideInterval} />
+							<ProgressBar />
 						</div>
 				{:else}
 					<button
