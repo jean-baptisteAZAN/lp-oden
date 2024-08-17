@@ -5,6 +5,33 @@
 
 	gsap.registerPlugin(ScrollTrigger);
 
+	const slides = [
+		{
+			id: "our-work-1",
+			title: "👋 On se rencontre ?",
+			description: "Tout commence par une discussion. Nous prenons le temps de comprendre vos besoins spécifiques et les particularités de votre école afin de créer une application qui vous ressemble.",
+			step: "1/4"
+		},
+		{
+			id: "our-work-2",
+			title: "🤔 Choisir la formule la plus adaptée",
+			description: "Explorez nos formules conçues pour répondre aux exigences variées des établissements. Chaque formule est une base que nous personnalisons pour refléter fidèlement l'identité de votre campus. L'application que nous allons concevoir ensemble sera unique, à l'image de votre école.",
+			step: "2/4"
+		},
+		{
+			id: "our-work-3",
+			title: "🤝 On fait le point régulièrement pendant que nous nous occupons du développement de l'application",
+			description: "Pour correspondre à vos attentes, nous vous tenons informés de l'avancement du projet. Nous vous sollicitons régulièrement pour obtenir votre avis et vos retours. Le processus de développement prend en moyenne 2 semaines à 1 mois, selon la complexité de votre personnalisation. Dans ce laps de temps, nous mettons en place l'application, la rendons disponible sur l'App Store, et vous formons à son utilisation.",
+			step: "3/4"
+		},
+		{
+			id: "our-work-4",
+			title: "🚀 Lancez votre application",
+			description: "Une fois que vous êtes satisfait de l'application, nous la lançons sur l'App Store. Vous pouvez alors la partager avec vos étudiants et commencer à profiter de ses avantages. Nous restons à votre disposition pour toute questions, modifications ou améliorations que vous souhaiteriez apporter à votre application. Nous sommes là pour vous accompagner dans la durée.",
+			step: "4/4"
+		}
+	];
+
 	let myST;
 
 	onMount(() => {
@@ -113,55 +140,13 @@
 			Comment ça marche ?
 		</h2>
 		<div class="carousel__slider">
-			<div class="carousel__item" id="our-work-1">
-				<h2 class="h3 xl:h2">
-					👋 On se rencontre ? - Établissement de vos besoins
-				</h2>
-				<h5 class="pr-20 mt-8">
-					Tout commence par une discussion.<br/> Nous prenons le temps de comprendre vos besoins spécifiques et les particularités de votre école afin de créer une application qui vous ressemble.
-				</h5>
-				<h3 class="absolute bottom-5 right-5 h3">
-					1/4
-				</h3>
-			</div>
-			<div class="carousel__item" id="our-work-2">
-				<h2 class="h3 xl:h2">
-					🤔 Choisir la formule la plus adaptée
-				</h2>
-				<h5 class="h5 pr-20 mt-8">
-					Explorez nos formules conçues pour répondre aux exigences variées des établissements. <br/>Chaque formule est une base que nous personnalisons pour refléter fidèlement l'identité de votre campus.
-					<br/>L'application que nous allons concevoir ensemble sera unique, à l'image de votre école.
-				</h5>
-				<h3 class="absolute bottom-5 right-5 h3">
-					2/4
-				</h3>
-			</div>
-			<div class="carousel__item" id="our-work-3">
-				<h2 class="h3 xl:h2">
-					🤝 On fait le point régulièrement pendant que nous nous occupons du développement de l'application
-				</h2>
-				<h5 class="pr-20 mt-8">
-					Pour correspondre à vos attentes, nous vous tenons informés de l'avancement du projet. <br/>Nous vous sollicitons régulièrement pour obtenir votre avis et vos retours.
-					<br/>Le processus de développement prend en moyenne 2 semaines à 1 mois, selon la complexité de votre personnalisation.
-					Dans ce laps de temps, nous mettons en place l'application, la rendons disponible sur l'App Store, et vous formons à son utilisation.
-				</h5>
-				<h3 class="absolute bottom-5 right-5 h3">
-					3/4
-				</h3>
-			</div>
-			<div class="carousel__item" id="our-work-4">
-				<h2 class="h3 xl:h2">
-					🚀 Lancez votre application
-				</h2>
-				<h5 class="pr-20 mt-8">
-					Une fois que vous êtes satisfait de l'application, nous la lançons sur l'App Store. <br/>Vous pouvez alors la partager avec vos étudiants et commencer à profiter de ses avantages.<br/>
-					Nous restons à votre disposition pour toute questions, modifications ou améliorations que vous souhaiteriez apporter à votre application.
-					<br/>Nous sommes là pour vous accompagner dans la durée.
-				</h5>
-				<h3 class="absolute bottom-5 right-5 h3">
-					4/4
-				</h3>
-			</div>
+			{#each slides as slide}
+				<div class="carousel__item" id={slide.id}>
+					<h2 class="h3 xl:h2">{slide.title}</h2>
+					<h5 class="pr-20 mt-8">{slide.description}</h5>
+					<h3 class="absolute bottom-5 right-5 h3">{slide.step}</h3>
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
