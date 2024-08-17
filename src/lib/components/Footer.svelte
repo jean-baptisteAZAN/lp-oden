@@ -8,6 +8,7 @@
 					</div>
 					<span class="self-center text-2xl font-semibold">Oden</span>
 				</a>
+				<img src="/dl_on.svg" alt="Download on the App Store" class="w-32 h-10">
 			</div>
 			<div class="col-span-6 text-center md:text-left md:col-span-3">
 				<h6 class="h6">À Propos de nous</h6>

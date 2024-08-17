@@ -13,7 +13,7 @@
 	let currentIndex = 0;
 	let currdeg = 0;
 	let interval;
-	const slideInterval = 7000;
+	const slideInterval = 5000;
 
 	onMount(() => {
 		startAutoSlide();
@@ -65,8 +65,8 @@
 		</button>
 	</div>
 	<div class="hidden md:flex flex-col items-center justify-center w-full xl:w-1/2 lg:mt-20 2xl:mt-0">
-		<div class="container">
-			<div class="carousel">
+		<div class="container overflow-x-hidden overflow-y-visible">
+			<div class="carousel pt-3.5">
 				<div class="a">
 					<img alt="Fil d'actualité" class="item" src="/features/4.png"/>
 				</div>
@@ -109,7 +109,7 @@
         width: 50rem;
         height: 30rem;
         position: relative;
-				perspective: 1000px;
+				perspective: 2000px;
     }
 		@media (max-width: 1324px) {
 			.container {
@@ -138,19 +138,19 @@
     }
 
     .a {
-        transform: rotateY(0deg) translateZ(250px);
+        transform: rotateY(0deg) translateZ(150px);
     }
     .b {
-        transform: rotateY(72deg) translateZ(250px) rotateY(-72deg);
+        transform: rotateY(72deg) translateZ(150px) rotateY(-72deg);
     }
     .c {
-        transform: rotateY(144deg) translateZ(250px) rotateY(-144deg);
+        transform: rotateY(144deg) translateZ(150px) rotateY(-144deg);
     }
     .d {
-        transform: rotateY(216deg) translateZ(250px) rotateY(-216deg);
+        transform: rotateY(216deg) translateZ(150px) rotateY(-216deg);
     }
     .e {
-        transform: rotateY(288deg) translateZ(250px) rotateY(-288deg);
+        transform: rotateY(288deg) translateZ(150px) rotateY(-288deg);
     }
 
     .dot {
