@@ -11,7 +11,7 @@
 	}
 </script>
 
-<nav class="flex flex-row items-center justify-between p-3 left-0 right-0 mx-auto fixed backdrop-blur-lg z-50">
+<nav class="flex flex-row items-center justify-between p-3 left-0 top-0 right-0 mx-auto fixed backdrop-blur-lg z-50">
 	<LightSwitch class="hidden md:block"/>
 	<div class="flex flex-row">
 		<a class="btn" href="/">
@@ -33,7 +33,7 @@
 
 {#if $contactPopup}
 	<div on:click={handleOutsideClick} class="popup fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
-		<div class="card p-5 ">
+		<div class="card p-5">
 			<h2 class="h2 mb-5">Contactez-nous</h2>
 			<div class="logo-cloud grid-cols-1 lg:!grid-cols-3 gap-1 [&>.logo-item]:variant-filled-primary">
 				<a class="logo-item p-5" href="https://www.linkedin.com/company/oden-tech/" target="_blank">

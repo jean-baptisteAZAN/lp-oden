@@ -64,7 +64,7 @@
 			const previousSlide = slides[i - 1];
 			if (previousSlide) {
 				tl.to(slide, { opacity: 1, yPercent: 0, scale: 1 }, 0.5 * (i - 1))
-					.to(previousSlide, { opacity: 0, yPercent: -100, scale: 0.5 }, "<");
+					.to(previousSlide, { opacity: 0, yPercent: - 100, scale: 0.5 }, "<");
 			} else {
 				gsap.to(slide, { yPercent: 0, opacity: 1, scale: 1, duration: 0 });
 			}

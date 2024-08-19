@@ -38,7 +38,7 @@
 				</button>
 				<a href="#how_it_works" class=" w-full md:w-fit">
 					<button class="btn md:btn-lg w-full md:w-fit variant-filled-surface">
-						Comment ca marche ?
+						Comment ça marche ?
 					</button>
 				</a>
 			</div>

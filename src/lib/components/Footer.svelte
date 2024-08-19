@@ -21,7 +21,7 @@
 				</ul>
 			</div>
 			<div class="col-span-6 text-center md:text-left md:col-span-3">
-				<h6 class="h6">Informations utils</h6>
+				<h6 class="h6">Informations utiles</h6>
 				<ul class="space-y-3">
 					<li>
 						<a class="anchor" href="/docs/introduction">Politique de confidentialité</a>
