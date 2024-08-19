@@ -1,4 +1,4 @@
-<footer class="py-10 mt-40">
+<footer class="py-10 mt-16">
 	<div style="border-radius: 16px;" class="container shadow-2xl p-6 mx-auto space-y-6 divide-y dark:divide-gray-600 md:space-y-12 divide-opacity-50">
 		<div class="space-y-5 md:grid md:grid-cols-12">
 			<div class="pb-6 col-span-full md:pb-0 md:col-span-6">
@@ -8,7 +8,6 @@
 					</div>
 					<span class="self-center text-2xl font-semibold">Oden</span>
 				</a>
-				<img src="/dl_on.svg" alt="Download on the App Store" class="w-32 h-10">
 			</div>
 			<div class="col-span-6 text-center md:text-left md:col-span-3">
 				<h6 class="h6">À Propos de nous</h6>
