@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b92a00fb-9e92-4874-bf91-c17e12b5aeea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <updated>1723559778942</updated>
       <workItem from="1723559781040" duration="35022000" />
       <workItem from="1723804631459" duration="26313000" />
-      <workItem from="1724053914168" duration="3149000" />
+      <workItem from="1724053914168" duration="4698000" />
     </task>
     <servers />
   </component>
