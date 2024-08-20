@@ -74,7 +74,7 @@
 					À partir de
 				</p>
 				<p class="h1 font-bold">
-					{arr[index].price} € / ans
+					{arr[index].price} € / an
 				</p>
 				<button on:click={()=> contactPopup.set(true)} class="btn btn-hover variant-filled w-full">
 					Demandez un devis

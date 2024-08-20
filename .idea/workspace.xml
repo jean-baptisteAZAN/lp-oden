@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b92a00fb-9e92-4874-bf91-c17e12b5aeea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/HeroSection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/HeroSection.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/HowItLooks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/HowItLooks.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/HowItWorks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/HowItWorks.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/Pricing.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Pricing.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +91,7 @@
       <workItem from="1724053914168" duration="4698000" />
       <workItem from="1724059694716" duration="2452000" />
       <workItem from="1724075771109" duration="100000" />
-      <workItem from="1724075893452" duration="347000" />
+      <workItem from="1724075893452" duration="556000" />
     </task>
     <servers />
   </component>
