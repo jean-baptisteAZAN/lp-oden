@@ -20,11 +20,6 @@
 		<a  class="btn" href="/faq">
 			<button type="button" class="btn bg-initial hover:scale-110 transition-all hover:underline duration-300">FAQ</button>
 		</a>
-		<!-- Calendly badge widget begin -->
-		<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-		<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-		<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/jbazan-pro/30min?primary_color=e18fd5', text: 'Réserver une démo', color: '#f0a8dd', textColor: '#ffffff', branding: undefined }); }</script>
-		<!-- Calendly badge widget end -->
 		<button on:click={()=> contactPopup.set(true)} type="button" class="btn btn-md md:btn-lg variant-filled">
 			Nous contacter
 		</button>
