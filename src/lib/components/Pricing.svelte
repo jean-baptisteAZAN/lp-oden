@@ -7,7 +7,7 @@
 	let index	= 0;
 	const arr = [
 		{
-			name: "Starter",
+			name: "L'essentiel",
 			price: 249,
 			options: [
 				"250 utilisateurs",
