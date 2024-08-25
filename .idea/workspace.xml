@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b92a00fb-9e92-4874-bf91-c17e12b5aeea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="b92a00fb-9e92-4874-bf91-c17e12b5aeea" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +94,7 @@
       <workItem from="1724156913206" duration="521000" />
       <workItem from="1724317341697" duration="649000" />
       <workItem from="1724319145227" duration="2175000" />
-      <workItem from="1724504187560" duration="2707000" />
+      <workItem from="1724504187560" duration="3633000" />
     </task>
     <servers />
   </component>

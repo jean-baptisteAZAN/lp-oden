@@ -26,14 +26,14 @@
 			<div class="col-span-6 text-center md:text-left md:col-span-3">
 				<h6 class="h6">Informations utiles</h6>
 				<ul class="space-y-3">
+<!--					<li>-->
+<!--						<a class="anchor" href="/">Politique de confidentialité</a>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						<a class="anchor" href="/">Mentions légales</a>-->
+<!--					</li>-->
 					<li>
-						<a class="anchor" href="/">Politique de confidentialité</a>
-					</li>
-					<li>
-						<a class="anchor" href="/">Mentions légales</a>
-					</li>
-					<li>
-						<a class="anchor" href="/">Plan du site</a>
+						<a class="anchor" href="/sitemap.xml">Plan du site</a>
 					</li>
 				</ul>
 			</div>
