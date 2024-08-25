@@ -1,11 +1,7 @@
-<div class="text-center space-y-8">
+<div class="text-center flex flex-col items-center justify-center gap-20 mt-40">
 	<p class="text-8xl font-extrabold opacity-30">404</p>
-	<div class="text-4xl font-bold">You have found a secret place</div>
-	<p>
-		Unfortunately, this is only a 404 page. You may have mistyped the address, or the page has been
-		moved to another URL.
-	</p>
-	<div>
-		<a href="/">Take me back to home page</a>
-	</div>
+	<p class="text-4xl font-bold">La page que vous cherchez n'existe pas</p>
+	<a href="/" class="pt-10">
+		<button class="btn btn-hover variant-filled text-4xl"> Retournez à la page d'accueil </button>
+	</a>
 </div>
