@@ -12,6 +12,7 @@
 <HowItWorks />
 <HowItLooks />
 <Pricing />
+
 <div class="flex flex-col items-center justify-center p-20 gap-10">
 	<div class="space-y-5 text-center">
 		<h1 class="h1">Alors ? Convaincu ?</h1>
